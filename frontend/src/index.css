@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Workbench&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 21px;
+}
+
+body{
+  margin: 0;
+  font-family: Workbench, sans-serif;
+}
+a{
+  text-decoration: none;
+}
