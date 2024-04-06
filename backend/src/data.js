@@ -65,7 +65,29 @@ export const sample_foods = [
         stars: 4.5,
         imageUrl:'food-6.jpg',
         tags:['FastFood', 'Pizza','Lunch'],
-    }
+    },{
+    id:'7',
+        name:'Cake',
+        cookTime: '10-20',
+        price: 450,
+        favorite: true,
+        origins: ['Italy','New York'],
+        stars: 4.5,
+        imageUrl:'food-7.jpg',
+        tags:['Desert'],
+
+    },{
+        id:'8',
+            name:'Milkshake',
+            cookTime: '10-15',
+            price: 150,
+            favorite: true,
+            origins: ['East Asia','India'],
+            stars: 4.3,
+            imageUrl:'food-8.jpg',
+            tags:['Desert'],
+    
+        },
 ];
 export const sample_tags = [
     { name: 'All', count: 6 },
