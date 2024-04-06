@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Workbench&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Merienda:wght@300..900&family=Permanent+Marker&family=Rubik+Scribble&family=Satisfy&display=swap');
 * {
   box-sizing: border-box;
 }
@@ -9,7 +9,7 @@ html{
 
 body{
   margin: 0;
-  font-family: Workbench, sans-serif;
+  font-family: "Merienda", cursive;
 }
 a{
   text-decoration: none;
