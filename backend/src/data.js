@@ -106,7 +106,7 @@ export const sample_tags = [
       email: 'vidit@gmail.com',
       password: '12345',
       address: 'Lucknow',
-      isAdmin: true,
+      isAdmin: false,
     },
     {
       id: 2,
@@ -114,6 +114,6 @@ export const sample_tags = [
       email: 'shiv@gmail.com',
       password: '12345',
       address: 'Jhansi',
-      isAdmin: false,
+      isAdmin: true,
     },
   ];
