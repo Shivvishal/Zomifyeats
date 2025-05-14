@@ -1,18 +1,24 @@
 {
+  "homepage": "https://Shivvishal/ZomifyEats",
   "name": "zomifyeats-react",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build" ,
     "start": "cd backend && npm start",
     "prebuild": "cd backend && npm install & cd frontend && npm install",
-   "build": "cd frontend && npm run build",
-   "postbuild":  "mv -f frontend/build backend/src/public"
+    "build": "cd frontend && npm run build",
+    "postbuild": "mv -f frontend/build backend/src/public"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "engines": {
     "node": ">=18 <21"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
